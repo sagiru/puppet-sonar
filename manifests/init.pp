@@ -19,7 +19,7 @@ class sonar (
   $user_system = true,
   $service = 'sonar', $installroot = '/usr/local', $home = '/var/local/sonar',
   $port = 9000, $download_url = 'http://dist.sonar.codehaus.org',
-  $context_path = '/', $arch = '', $ldap = {}, $crowd = {},
+  $context_path = '/sonar', $arch = '', $ldap = {}, $crowd = {},
   $jdbc = {
     url               => 'jdbc:postgresql://localhost/sonar',
     driver_class_name => 'org.postgresql.Driver',
