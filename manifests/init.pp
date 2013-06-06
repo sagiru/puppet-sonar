@@ -18,7 +18,7 @@ class sonar (
   $group = 'sonar',
   $user_system = true,
   $service = 'sonar', $installroot = '/usr/local', $home = '/var/local/sonar',
-  $port = 9000, $download_url = 'http://dist.sonar.codehaus.org', 
+  $port = 9000, $download_url = 'http://dist.sonar.codehaus.org',
   $context_path = '/', $arch = '', $ldap = {}, $crowd = {},
   $jdbc = {
     url               => 'jdbc:derby://localhost:1527/sonar;create=true',

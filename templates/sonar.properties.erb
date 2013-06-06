@@ -22,15 +22,15 @@ sonar.web.context:                        <%= @context_path %>
 # Log HTTP requests. Deactivated by default.
 #sonar.web.jettyRequestLogs: ../../logs/jetty-yyyy_mm_dd.request.log
 
-# Apache mod_jk connector. Supported only in standalone mode. 
-# Uncomment to activate AJP13 connector. 
+# Apache mod_jk connector. Supported only in standalone mode.
+# Uncomment to activate AJP13 connector.
 #sonar.ajp13.port: 8009
 
 
 #-----------------------------------------------------------------------
 # DATABASE
 #
-# IMPORTANT : the embedded database Derby is used by default. 
+# IMPORTANT : the embedded database Derby is used by default.
 # It is recommended for tests only. Please use an external database
 # for production environment (MySQL, Oracle, Postgresql, SQLServer)
 #
@@ -83,7 +83,7 @@ sonar.jdbc.validationQuery:                <%= @jdbc['validation_query'] %>
 #sonar.jdbc.driverClassName:                oracle.jdbc.driver.OracleDriver
 #sonar.jdbc.validationQuery:                select 1 from dual
 
-# Uncomment the following property if multiple Sonar schemas are installed on the same server 
+# Uncomment the following property if multiple Sonar schemas are installed on the same server
 # (for example with different versions).
 # In that case, use the same property during project analysis (-Dsonar.hibernate.default_schema=<schema>)
 #sonar.hibernate.default_schema:            sonar
@@ -103,7 +103,7 @@ sonar.jdbc.validationQuery:                <%= @jdbc['validation_query'] %>
 # The validation query is optional.
 #sonar.jdbc.url:                            jdbc:jtds:sqlserver://localhost;databaseName=SONAR;SelectMethod=Cursor
 #sonar.jdbc.driverClassName:                net.sourceforge.jtds.jdbc.Driver
-#sonar.jdbc.validationQuery:                select 1  
+#sonar.jdbc.validationQuery:                select 1
 
 
 #----- Connection pool settings
